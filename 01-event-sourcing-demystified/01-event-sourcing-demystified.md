@@ -1,6 +1,6 @@
 # Event Sourcing Demystified
 
-*Part 1 of the "Building Event-Sourced Systems in Go" series*
+*This is Part 1 of the "Building Event-Sourced Systems in Go" series. This series originated from the development of comby – an application framework developed using the principles of Event Sourcing and Command Query Responsibility Segregation (CQRS) - which ist still closed source today. Code with concepts and techniques is presented, but unlike comby, it is not always suitable for product use.*
 
 ---
 
@@ -389,8 +389,4 @@ It may not be worth the complexity when:
 
 ## What's Next
 
-In the next post, we'll explore **CQRS (Command Query Responsibility Segregation)** — a pattern that pairs naturally with Event Sourcing to optimize both reads and writes.
-
----
-
-*This is Part 1 of the "Building Event-Sourced Systems in Go" series. In the upcoming posts, we'll dive deeper into CQRS, Aggregates, and the Go patterns that make these architectures elegant.*
+In the next post, we'll explore **Part 02: CQRS - Separating Reads and Writes** — a pattern that pairs naturally with Event Sourcing to optimize both reads and writes.
