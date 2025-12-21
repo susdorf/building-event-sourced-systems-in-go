@@ -403,10 +403,10 @@ CQRS naturally supports distributed architectures. A common pattern uses a **sin
 │  └──────┬──────┘     └──────┬──────┘     └──────┬──────┘                │
 │         │                   │                   │                       │
 │         │                   │                   │                       │
-│         │     Commands      │     Commands      │      Commands         │
-│         └──────────┬────────┴─────────┬─────────┴───────────┐           │
-│                    │                  │                     │           │
-│                    ▼                  ▼                     ▼           │
+│         │     Commands      │     Commands      │                       │
+│         └──────────┬────────┴─────────┬─────────┴                       │
+│                    │                  │                                 │
+│                    ▼                  ▼                                 │
 │               ┌─────────────────────────────────┐                       │
 │               │            Broker               │                       │
 │               │            (NATS)               │                       │
