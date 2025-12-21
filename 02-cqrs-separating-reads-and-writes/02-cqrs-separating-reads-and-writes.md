@@ -636,10 +636,10 @@ Notice how:
 4. **Business rules are enforced** — A cancelled order cannot be shipped (the aggregate protects its invariants)
 5. **Typed dispatch** — Each handler is registered by its command/query/event type, no switch statements needed
 
+---
+
 ## What's Next
 
 In the next post, we'll explore **Aggregates** — the consistency boundaries that encapsulate business logic and ensure data integrity in an event-sourced system.
-
----
 
 *This is Part 2 of the "Building Event-Sourced Systems in Go" series. We've seen how CQRS separates concerns and enables optimization. Next, we'll dive into the heart of domain logic: Aggregates.*
