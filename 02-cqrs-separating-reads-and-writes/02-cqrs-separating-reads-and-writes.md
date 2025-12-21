@@ -404,7 +404,7 @@ CQRS naturally supports distributed architectures. A common pattern uses a **sin
 │         │                   │                   │                       │
 │         │                   │                   │                       │
 │         │     Commands      │     Commands      │                       │
-│         └──────────┬────────┴─────────┬─────────┴                       │
+│         └──────────┬────────┴─────────┬─────────┘                       │
 │                    │                  │                                 │
 │                    ▼                  ▼                                 │
 │               ┌─────────────────────────────────┐                       │
